@@ -10,7 +10,9 @@ class WeatherScreen extends StatefulWidget {
 }
 
 class _WeatherScreenState extends State {
-  final Api_key = 'a19ac5ed42c436634a170333b3d18673';
+  
+  final Api_key = 'Your Api Key';
+  // final Api_key = 'a19ac5ed42c436634a170333b3d18673';
   double _latitude = 0.0;
   double _longitude = 0.0;
   String _weatherDescription = '';
